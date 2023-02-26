@@ -1,0 +1,14 @@
+.user-link {
+	a {
+		display: block;
+		text-decoration: none;
+		color: white;
+		background: lightsalmon;
+		padding: 10px;
+		margin: 10px;
+
+		&:hover {
+		background: rgb(240, 151, 116);	
+		}
+	}
+}

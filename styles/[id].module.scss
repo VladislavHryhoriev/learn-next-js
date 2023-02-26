@@ -1,0 +1,15 @@
+.user {
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+	background: lightsalmon;
+	color: #fff;
+
+	&__name {
+		font-size: 28px;
+	}
+}
+
+.info {
+	margin-top: 15px;
+}
