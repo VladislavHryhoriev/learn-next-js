@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
 import NavLink from './NavLink';
+import styles from '../styles/MainContainer.module.scss'
 
 const MainContainer = ({ children, keywords, title }) => {
 	return (
@@ -10,10 +11,10 @@ const MainContainer = ({ children, keywords, title }) => {
 				<title>{title}</title>
 			</Head>
 			<div className='navbar'>
-				<NavLink href={'/'} text={"Главная"} />
-				<NavLink href={'/users'} text={"Пользователи"} />
+				<NavLink href={'/'} text={"Home"} />
+				<NavLink href={'/users'} text={"Users"} />
 			</div>
-			<div>
+			<div className={styles.container}>
 				{children}
 			</div>
 		</>

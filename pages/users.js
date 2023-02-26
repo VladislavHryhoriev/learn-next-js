@@ -6,7 +6,7 @@ const Users = ({ users }) => {
 
 	return (
 		<MainContainer keywords={"users"} title="Users">
-			<h1>Список пользователей</h1>
+			<h1>Users list</h1>
 			<ul>
 				{users.map(user =>
 					<li key={user.id} className={styles["user-link"]}>

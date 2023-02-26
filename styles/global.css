@@ -6,9 +6,10 @@
 
 body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background: #20262E;
 }
 
 .navbar {
-	background: orange;
+	background: #913175;
 	padding: 15px;
 }

@@ -3,13 +3,13 @@ import MainContainer from "../../components/MainContainer";
 import styles from '../../styles/[id].module.scss';
 
 const Func = ({ user }) => {
-	const { query } = useRouter();
+	// const { query } = useRouter();
 
 	return (
 		<MainContainer keywords={user.name} title={user.name}>
-			<div className={styles["user"]}>
-				<h1 className={styles["user__name"]}>{user.name}:id/{query.id}</h1>
-				<div className={styles["info"]}>
+			<div className={styles.user}>
+				<h1 className={styles.user__name}>{user.name}</h1>
+				<div className={styles.info}>
 					<p>Email: {user.email}</p>
 					<p>WebSite: {user.website}</p>
 				</div>
